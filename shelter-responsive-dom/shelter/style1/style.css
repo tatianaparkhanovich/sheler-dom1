@@ -52,6 +52,9 @@ header p {
   max-width: 1200px;
   margin: auto;
 }
+.main-wrapper {
+  padding-top: 80px;
+}
 .mob-menu {
   width: 35px;
   height: 5px;
@@ -93,7 +96,7 @@ h2 {
   color: #545454;
   margin-bottom: 25px;
   text-align: center;
-  width: 400px;
+  max-width: 400px;
   margin: auto;
   letter-spacing: 0.06em;
 }
@@ -116,17 +119,13 @@ h3 {
   flex-wrap: wrap;
   gap: 40px;
 }
-.pet {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 22%;
-}
+.pet,
 .pet1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 22%;
+  background-color: #ffffff;
 }
 .pet img {
   text-align: center;
@@ -151,6 +150,7 @@ h3 {
   display: flex;
   justify-content: center;
   gap: 40px;
+  margin-top: 45px;
 }
 .wrapper-button .center {
   width: 52px;
@@ -272,6 +272,11 @@ footer .nav {
     max-width: 90%;
   }
 }
+@media (max-width: 1200px) {
+  .pets {
+    justify-content: space-around;
+  }
+}
 @media (max-width: 920px) {
   .pets a {
     padding: 6px 28px;
@@ -312,7 +317,6 @@ footer .nav {
     margin-bottom: 42px;
     font-size: 25px;
     line-height: 32px;
-    width: 350px;
   }
   .pets {
     justify-content: center;
@@ -326,5 +330,8 @@ footer .nav {
   .wrapper-button {
     justify-content: space-between;
     gap: 10px;
+  }
+  main {
+    padding-bottom: 42px;
   }
 }

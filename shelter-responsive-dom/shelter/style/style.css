@@ -266,6 +266,7 @@ button:hover {
   border-radius: 100px;
   text-decoration: none;
   margin-bottom: 60px;
+  letter-spacing: 0.06em;
 }
 .katrine {
   width: 270px;
@@ -308,10 +309,6 @@ button:hover {
   text-align: center;
   margin-bottom: 60px;
 }
-.text {
-  width: 314px;
-  margin: auto;
-}
 .wrapper-pharmacy {
   display: flex;
   justify-content: center;
@@ -345,7 +342,6 @@ button:hover {
   gap: 30px;
 }
 .donation-text h2 {
-  width: 300px;
   font-weight: 400;
   font-size: 35px;
   line-height: 45px;
@@ -446,6 +442,14 @@ footer .nav {
     max-width: 90%;
   }
 }
+@media (max-width: 1170px) {
+  .woody {
+    display: none;
+  }
+  .pets {
+    justify-content: space-around;
+  }
+}
 @media (max-width: 1120px) {
   .hero-left {
     margin-top: 100px;
@@ -453,7 +457,7 @@ footer .nav {
 }
 @media (max-width: 1050px) {
   .main-hero .container {
-    justify-content: space-around;
+    justify-content: flex-end;
     flex-wrap: wrap;
   }
   .hero-right {
@@ -537,7 +541,7 @@ footer .nav {
 }
 @media (max-width: 722px) {
   .hero-right img {
-    width: 50%;
+    width: 260px;
   }
   .hero-right {
     margin-top: 100px;
@@ -565,15 +569,25 @@ footer .nav {
   .jennifer {
     display: none;
   }
-  .woody {
-    display: none;
-  }
   .left-right {
     align-items: flex-end;
     margin: 0 30px 40px;
+    position: relative;
+  }
+  .left,
+  .right {
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
   }
   .donation-text {
     max-width: 280px;
+  }
+  .left {
+    transform: translateX(-74px);
+  }
+  .right {
+    transform: translateX(40px);
   }
   .account {
     width: 100%;
@@ -609,7 +623,7 @@ footer .nav {
     line-height: 32px;
   }
   .wrapper-pharmacy {
-    width: 320px;
+    max-width: 320px;
     margin: auto;
     text-align: center;
   }
@@ -623,12 +637,9 @@ footer .nav {
     width: 130px;
   }
   .text h2 {
-    width: 220px;
+    max-width: 220px;
     font-size: 25px;
     line-height: 32px;
-  }
-  .text {
-    width: 320px;
   }
   h4 {
     font-size: 15px;
