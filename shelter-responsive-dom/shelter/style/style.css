@@ -367,7 +367,6 @@ button:hover {
   margin-top: 30px;
   margin-bottom: 30px;
   border-radius: 8px;
-  text-align: left;
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
@@ -584,7 +583,7 @@ footer .nav {
     bottom: -20px;
   }
   .donation-text {
-    max-width: 280px;
+    margin: 0 auto;
   }
   .left {
     transform: translateX(-74px);
@@ -605,9 +604,9 @@ footer .nav {
     margin: 0 auto 42px;
   }
   .card {
-    max-width: 280px;
     font-size: 15px;
     line-height: 17px;
+    display: block;
   }
   .wraper-donation {
     padding-bottom: 42px 0;
@@ -664,5 +663,9 @@ footer .nav {
   .donation-text h2 {
     font-size: 33px;
     line-height: 40px;
+  }
+  .donation-text {
+    text-align: center;
+    margin: auto;
   }
 }
