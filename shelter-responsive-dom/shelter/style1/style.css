@@ -112,7 +112,6 @@ h3 {
 .text {
   margin-top: 80px;
   margin-bottom: 60px;
-  max-width: 400px;
   margin: auto;
 }
 .pets {
@@ -274,9 +273,13 @@ footer .nav {
     max-width: 90%;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1111px) {
   .pets {
     justify-content: space-around;
+  }
+  .pet,
+  .pet1 {
+    width: 270px;
   }
 }
 @media (max-width: 920px) {
