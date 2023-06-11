@@ -40,6 +40,10 @@ header p {
   font-family: Arial;
   margin-top: 10px;
 }
+img {
+  display: block;
+  max-width: 100%;
+}
 .logo a {
   text-decoration: none;
 }
@@ -125,7 +129,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 22%;
+  width: 270px;
   background-color: #ffffff;
 }
 .pet img {
