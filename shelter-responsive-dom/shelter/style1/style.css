@@ -80,10 +80,6 @@ a:hover {
   height: 16px;
   display: none;
 }
-img {
-  display: block;
-  max-width: 100%;
-}
 h1 {
   font-weight: 400;
   font-size: 32px;
@@ -281,10 +277,6 @@ footer .nav {
   .pets {
     justify-content: space-around;
   }
-  .pet,
-  .pet1 {
-    width: 270px;
-  }
 }
 @media (max-width: 920px) {
   .pets a {
@@ -295,12 +287,6 @@ footer .nav {
   .wrapper-footer .container {
     flex-wrap: wrap;
     justify-content: center;
-  }
-  .pet {
-    width: 46%;
-  }
-  .pet1 {
-    width: 46%;
   }
   .puppy {
     margin-top: 69px;
@@ -330,9 +316,6 @@ footer .nav {
   }
   .pets {
     justify-content: center;
-  }
-  .pet1 {
-    width: 100%;
   }
   .pet {
     display: none;
