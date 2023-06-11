@@ -292,14 +292,16 @@ button:hover {
   margin-bottom: 60px;
   background-color: #fafafa;
 }
-
 .pharmacy {
   padding-top: 80px;
   padding-bottom: 100px;
   background-color: #ffffff;
 }
+.text {
+  max-width: 314px;
+  margin: auto;
+}
 .text h2 {
-  width: 314px;
   text-align: center;
   font-weight: 400;
   font-size: 35px;
@@ -347,6 +349,7 @@ button:hover {
   line-height: 45px;
   color: #545454;
   letter-spacing: 0.06em;
+  max-width: 300px;
 }
 .donation-text {
   max-width: 380px;
@@ -464,7 +467,7 @@ footer .nav {
     margin-top: 100px;
   }
   .hero-left {
-    margin-top: 0;
+    margin: 0 auto;
   }
   .link {
     margin-left: 110px;
@@ -637,7 +640,6 @@ footer .nav {
     width: 130px;
   }
   .text h2 {
-    max-width: 220px;
     font-size: 25px;
     line-height: 32px;
   }
